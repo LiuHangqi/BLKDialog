@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLKDialog_Example' do
+  pod 'BLKDialog', :path => '../'
+
+  target 'BLKDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
