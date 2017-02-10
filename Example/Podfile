@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'BLKDialog_Example' do
   pod 'BLKDialog', :path => '../'
-
+  pod 'MBProgressHUD'
   target 'BLKDialog_Tests' do
     inherit! :search_paths
 
