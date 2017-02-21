@@ -1,0 +1,21 @@
+{
+  "name": "BLKDialog",
+  "version": "0.1.0",
+  "summary": "A Dialog framework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.blkee.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiuHangqi": "liuhangqi@live.com"
+  },
+  "source": {
+    "git": "~/dev/BLKDialog"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BLKDialog/Classes/**/*"
+}

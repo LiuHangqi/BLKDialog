@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7514b49-6e33-419e-8a66-5053bfaa1a50" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLKDialog/Classes/BLKStatusBar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLKDialog/Classes/BLKStatusBar.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLKDialog/Classes/UIViewController+BLKDialog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BLKDialog/Classes/UIViewController+BLKDialog.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BLKDialog/Classes/ReplaceMe.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLKDialog/Assets/.gitkeep" afterPath="$PROJECT_DIR$/BLKDialog/Assets/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLKDialog/Classes/.gitkeep" afterPath="$PROJECT_DIR$/BLKDialog/Classes/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BLKDialog.podspec" afterPath="$PROJECT_DIR$/BLKDialog.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Example/BLKDialog.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/Example/BLKDialog.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog.xcodeproj/xcshareddata/xcschemes/BLKDialog-Example.xcscheme" afterPath="$PROJECT_DIR$/Example/BLKDialog.xcodeproj/xcshareddata/xcschemes/BLKDialog-Example.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/BLKAppDelegate.h" afterPath="$PROJECT_DIR$/Example/BLKDialog/BLKAppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/BLKAppDelegate.m" afterPath="$PROJECT_DIR$/Example/BLKDialog/BLKAppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/BLKDialog-Info.plist" afterPath="$PROJECT_DIR$/Example/BLKDialog/BLKDialog-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/BLKDialog-Prefix.pch" afterPath="$PROJECT_DIR$/Example/BLKDialog/BLKDialog-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/BLKViewController.h" afterPath="$PROJECT_DIR$/Example/BLKDialog/BLKViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/BLKViewController.m" afterPath="$PROJECT_DIR$/Example/BLKDialog/BLKViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/Example/BLKDialog/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/Example/BLKDialog/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/Main.storyboard" afterPath="$PROJECT_DIR$/Example/BLKDialog/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/Example/BLKDialog/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/BLKDialog/main.m" afterPath="$PROJECT_DIR$/Example/BLKDialog/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/Podfile" afterPath="$PROJECT_DIR$/Example/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/Tests/Tests-Info.plist" afterPath="$PROJECT_DIR$/Example/Tests/Tests-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/Tests/Tests-Prefix.pch" afterPath="$PROJECT_DIR$/Example/Tests/Tests-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/Tests/Tests.m" afterPath="$PROJECT_DIR$/Example/Tests/Tests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Example/Tests/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/Example/Tests/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <ignored path="BLKDialog.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="_Pods" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="y" value="23" />
+    <option name="width" value="1249" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7514b49-6e33-419e-8a66-5053bfaa1a50" name="Default" comment="" />
+      <created>1486088621920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486088621920</updated>
+      <workItem from="1486088633742" duration="10000" />
+      <workItem from="1486088960420" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="31" y="23" width="1249" height="777" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

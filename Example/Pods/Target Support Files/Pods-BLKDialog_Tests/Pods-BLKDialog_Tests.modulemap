@@ -1,0 +1,6 @@
+framework module Pods_BLKDialog_Tests {
+  umbrella header "Pods-BLKDialog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

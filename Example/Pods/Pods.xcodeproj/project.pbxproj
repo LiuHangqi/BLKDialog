@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E70E418F2727C1C97628713C02C375 /* BLKDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDBEF40296E3EACF019F04D1A065F2C /* BLKDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */; };
+		1215629D558162CE728B27386DA02D1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
+		19E79E348F73EE2014B2512CA62151B3 /* BLKDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C062C3F708A29298BA8E74E04656C /* BLKDialog-dummy.m */; };
+		1C4933778A2713064826E7F0E6F907C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
+		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D28E248AD052B66165ADBB87F838B7A /* BLKStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A970B795D3354C94F5E9735A18EC710C /* BLKStatusBar.m */; };
+		4DBEE56C5F734C175257A0D8C1233807 /* Pods-BLKDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66540C34A6338DF6DD63F4AAD19C4D15 /* Pods-BLKDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6E62D81E13559C00897797 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6E62D91E1357A200897797 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; };
+		7E1E19F49C81F82732B0E6A4942A7CD6 /* UIViewController+BLKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804924D7F6C05EDE0F737E345950720 /* UIViewController+BLKDialog.m */; };
+		856453C4419381C549CADBC10CDA8451 /* Pods-BLKDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B36E5ACC30A3C54E2ECB8A4457AE3C7E /* Pods-BLKDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; };
+		98DF470CA8F6DD132AFAC1398FCD579C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B476C7C3BDD4218E3B0B852CE57093 /* CoreGraphics.framework */; };
+		9F25AF8398FD002A8CF7D583055323A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
+		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E2F19B8FEEAE9AC8ED3B0361BC8059 /* Pods-BLKDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB563D878608F20EA0A728989549ADC /* Pods-BLKDialog_Tests-dummy.m */; };
+		B9B8A53802EBBE1E93567782F0AB6213 /* Pods-BLKDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322317422F7B84561C7B2E7E62655CAB /* Pods-BLKDialog_Example-dummy.m */; };
+		BD7D5244AC160839052F98E3D83C1D6E /* BLKStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 332DA540336D1AB5850B0FD3F686A62B /* BLKStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D09564512A863498D11D128F8C7D41B0 /* UIViewController+BLKDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E9A7630E719D2B004BA03F2D1D1F25 /* UIViewController+BLKDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3FBCF3B21EB18151C3BC2645107E0D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E054739AD8EE5381E7FBABB3ACA80805 /* QuartzCore.framework */; };
+		ECFABB8BACA6DCFE0F76686746AB2816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1B0B8B71291B920CEF9F0261B103392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798A5EBEC22B8372D0F1D2CE95B63A45;
+			remoteInfo = BLKDialog;
+		};
+		D3427D47B8C1B57785C69FA1D98E6264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FA54D12162DAD51D02FC58A2CD5034;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09D9A152826CB58EB171E8EC36E40E8C /* Pods-BLKDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLKDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CDBEF40296E3EACF019F04D1A065F2C /* BLKDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLKDialog-umbrella.h"; sourceTree = "<group>"; };
+		0E0F2E8BFD3FE35FCDF09C8A9D60ACBF /* Pods-BLKDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLKDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		10AEE59C1C2FFA640F20626C3CB76F43 /* Pods-BLKDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLKDialog_Tests.modulemap"; sourceTree = "<group>"; };
+		12D4FDB708576E5796B1C1445C9DD319 /* BLKDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLKDialog-prefix.pch"; sourceTree = "<group>"; };
+		1C6FC008CDEBDDA49D93ED61ADE010A8 /* BLKDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLKDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AB3522C320FC1E5BC3CD50C0F795BE /* Pods-BLKDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLKDialog_Example.modulemap"; sourceTree = "<group>"; };
+		2A3AB063815D22B288BD7E5AA88AE2E1 /* Pods-BLKDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLKDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB563D878608F20EA0A728989549ADC /* Pods-BLKDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLKDialog_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D5C728BB2AF29E411E779C1A47476F6 /* Pods-BLKDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLKDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		322317422F7B84561C7B2E7E62655CAB /* Pods-BLKDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLKDialog_Example-dummy.m"; sourceTree = "<group>"; };
+		332DA540336D1AB5850B0FD3F686A62B /* BLKStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BLKStatusBar.h; sourceTree = "<group>"; };
+		3804924D7F6C05EDE0F737E345950720 /* UIViewController+BLKDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BLKDialog.m"; sourceTree = "<group>"; };
+		45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		5CDADF93584A4E3CF5792DA8DA7E9B3E /* Pods_BLKDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLKDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		647868DED9F5C3F751D260CBB572755A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66540C34A6338DF6DD63F4AAD19C4D15 /* Pods-BLKDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLKDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		66685049C38745BA882220E7599958FF /* Pods-BLKDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLKDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7822CB9A6FAB0C39AD3E7FE27EFEA9DA /* BLKDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLKDialog.modulemap; sourceTree = "<group>"; };
+		79AF39F785E1A9874C2B38247EA3FD8E /* Pods-BLKDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLKDialog_Example-resources.sh"; sourceTree = "<group>"; };
+		7BBFE85595DAC0827F7E6D1B15B59C91 /* BLKDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLKDialog.xcconfig; sourceTree = "<group>"; };
+		82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		87BCD7D14E83BBA2715AF332F0D4A8CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948EC0F893CD924B9C86CDC76772A1C8 /* Pods-BLKDialog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLKDialog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A361BA7512869F3D6EDC3044A5F117CC /* Pods-BLKDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLKDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		A970B795D3354C94F5E9735A18EC710C /* BLKStatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BLKStatusBar.m; sourceTree = "<group>"; };
+		AD43A6BAD7E36B2B3290241DEA0488F3 /* Pods-BLKDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLKDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B36E5ACC30A3C54E2ECB8A4457AE3C7E /* Pods-BLKDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLKDialog_Example-umbrella.h"; sourceTree = "<group>"; };
+		B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B543DFA12D66A14235F352D0C7F6A4CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC634D0B09F93D74B5BBC206C692D3 /* Pods-BLKDialog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLKDialog_Tests-resources.sh"; sourceTree = "<group>"; };
+		D5C38128925FA4340ACD81D6614C6E06 /* Pods-BLKDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLKDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E9A7630E719D2B004BA03F2D1D1F25 /* UIViewController+BLKDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BLKDialog.h"; sourceTree = "<group>"; };
+		D78D08205B7EF73CF3842BAAD3BB24DD /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8C7F5A8EDBC38078A32357220B9E3E /* Pods_BLKDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLKDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E054739AD8EE5381E7FBABB3ACA80805 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E5B476C7C3BDD4218E3B0B852CE57093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E6714D0D190B885B78501A1F4DEAC8AD /* Pods-BLKDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLKDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		FF9C062C3F708A29298BA8E74E04656C /* BLKDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLKDialog-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9465C41B2B79BB62633F19EF351041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4933778A2713064826E7F0E6F907C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B238E80059E7A0A9B6E7918C37E43413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFABB8BACA6DCFE0F76686746AB2816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57774E30FD88AE26F9037E1360E947B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF470CA8F6DD132AFAC1398FCD579C /* CoreGraphics.framework in Frameworks */,
+				1215629D558162CE728B27386DA02D1D /* Foundation.framework in Frameworks */,
+				DA3FBCF3B21EB18151C3BC2645107E0D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA13CE1362B6A55C7BA26AB16F05E8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25AF8398FD002A8CF7D583055323A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBC4EC84F582CEFD22435B9D3CE53F1 /* Pods-BLKDialog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				647868DED9F5C3F751D260CBB572755A /* Info.plist */,
+				27AB3522C320FC1E5BC3CD50C0F795BE /* Pods-BLKDialog_Example.modulemap */,
+				A361BA7512869F3D6EDC3044A5F117CC /* Pods-BLKDialog_Example-acknowledgements.markdown */,
+				AD43A6BAD7E36B2B3290241DEA0488F3 /* Pods-BLKDialog_Example-acknowledgements.plist */,
+				322317422F7B84561C7B2E7E62655CAB /* Pods-BLKDialog_Example-dummy.m */,
+				2D5C728BB2AF29E411E779C1A47476F6 /* Pods-BLKDialog_Example-frameworks.sh */,
+				79AF39F785E1A9874C2B38247EA3FD8E /* Pods-BLKDialog_Example-resources.sh */,
+				B36E5ACC30A3C54E2ECB8A4457AE3C7E /* Pods-BLKDialog_Example-umbrella.h */,
+				D5C38128925FA4340ACD81D6614C6E06 /* Pods-BLKDialog_Example.debug.xcconfig */,
+				0E0F2E8BFD3FE35FCDF09C8A9D60ACBF /* Pods-BLKDialog_Example.release.xcconfig */,
+			);
+			name = "Pods-BLKDialog_Example";
+			path = "Target Support Files/Pods-BLKDialog_Example";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E029D9AAED7679617632303F2A4C409B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68AA424C5DC89893D896886DC189D49C /* Pods-BLKDialog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				87BCD7D14E83BBA2715AF332F0D4A8CA /* Info.plist */,
+				10AEE59C1C2FFA640F20626C3CB76F43 /* Pods-BLKDialog_Tests.modulemap */,
+				09D9A152826CB58EB171E8EC36E40E8C /* Pods-BLKDialog_Tests-acknowledgements.markdown */,
+				66685049C38745BA882220E7599958FF /* Pods-BLKDialog_Tests-acknowledgements.plist */,
+				2BB563D878608F20EA0A728989549ADC /* Pods-BLKDialog_Tests-dummy.m */,
+				948EC0F893CD924B9C86CDC76772A1C8 /* Pods-BLKDialog_Tests-frameworks.sh */,
+				CDBC634D0B09F93D74B5BBC206C692D3 /* Pods-BLKDialog_Tests-resources.sh */,
+				66540C34A6338DF6DD63F4AAD19C4D15 /* Pods-BLKDialog_Tests-umbrella.h */,
+				2A3AB063815D22B288BD7E5AA88AE2E1 /* Pods-BLKDialog_Tests.debug.xcconfig */,
+				E6714D0D190B885B78501A1F4DEAC8AD /* Pods-BLKDialog_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLKDialog_Tests";
+			path = "Target Support Files/Pods-BLKDialog_Tests";
+			sourceTree = "<group>";
+		};
+		6AD8BF8669ACB36A29E1CCBE7421C231 /* BLKDialog */ = {
+			isa = PBXGroup;
+			children = (
+				DA19B6F9099F48B1CBD05F627F2ED3E7 /* BLKDialog */,
+				720D2FDDAE7D4AC8AB263A558E07C30D /* Support Files */,
+			);
+			name = BLKDialog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		720D2FDDAE7D4AC8AB263A558E07C30D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7822CB9A6FAB0C39AD3E7FE27EFEA9DA /* BLKDialog.modulemap */,
+				7BBFE85595DAC0827F7E6D1B15B59C91 /* BLKDialog.xcconfig */,
+				FF9C062C3F708A29298BA8E74E04656C /* BLKDialog-dummy.m */,
+				12D4FDB708576E5796B1C1445C9DD319 /* BLKDialog-prefix.pch */,
+				0CDBEF40296E3EACF019F04D1A065F2C /* BLKDialog-umbrella.h */,
+				B543DFA12D66A14235F352D0C7F6A4CE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLKDialog";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				897ABD5CB308D880CBD9541F2C9756E6 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5836A44A75C427EBF4739C55E2315758 /* Pods */,
+				EE22190A9435FF456FB1C67F3981129D /* Products */,
+				9AFADCFF021066E89072543CE17E5CA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85712448C302FAD8D3F76B5FF37045CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				332DA540336D1AB5850B0FD3F686A62B /* BLKStatusBar.h */,
+				A970B795D3354C94F5E9735A18EC710C /* BLKStatusBar.m */,
+				D6E9A7630E719D2B004BA03F2D1D1F25 /* UIViewController+BLKDialog.h */,
+				3804924D7F6C05EDE0F737E345950720 /* UIViewController+BLKDialog.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		897ABD5CB308D880CBD9541F2C9756E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8BF8669ACB36A29E1CCBE7421C231 /* BLKDialog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */,
+				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
+				A965BDBE5FC4856535619D751B2F0F38 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9AFADCFF021066E89072543CE17E5CA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FBC4EC84F582CEFD22435B9D3CE53F1 /* Pods-BLKDialog_Example */,
+				68AA424C5DC89893D896886DC189D49C /* Pods-BLKDialog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A965BDBE5FC4856535619D751B2F0F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */,
+				45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */,
+				4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */,
+				B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */,
+				F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */,
+				A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		DA19B6F9099F48B1CBD05F627F2ED3E7 /* BLKDialog */ = {
+			isa = PBXGroup;
+			children = (
+				85712448C302FAD8D3F76B5FF37045CA /* Classes */,
+			);
+			path = BLKDialog;
+			sourceTree = "<group>";
+		};
+		E029D9AAED7679617632303F2A4C409B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5B476C7C3BDD4218E3B0B852CE57093 /* CoreGraphics.framework */,
+				82D40E632FA2A47E7DBA77D3D46FDFE8 /* Foundation.framework */,
+				E054739AD8EE5381E7FBABB3ACA80805 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE22190A9435FF456FB1C67F3981129D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6FC008CDEBDDA49D93ED61ADE010A8 /* BLKDialog.framework */,
+				D78D08205B7EF73CF3842BAAD3BB24DD /* MBProgressHUD.framework */,
+				DB8C7F5A8EDBC38078A32357220B9E3E /* Pods_BLKDialog_Example.framework */,
+				5CDADF93584A4E3CF5792DA8DA7E9B3E /* Pods_BLKDialog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0958361DFD0884CDCF3D1FC47EC4E5AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E70E418F2727C1C97628713C02C375 /* BLKDialog-umbrella.h in Headers */,
+				BD7D5244AC160839052F98E3D83C1D6E /* BLKStatusBar.h in Headers */,
+				5A6E62D81E13559C00897797 /* MBProgressHUD.h in Headers */,
+				D09564512A863498D11D128F8C7D41B0 /* UIViewController+BLKDialog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197B7877D5D346F405BDD059EF96DBDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */,
+				A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E76E4A2003B7BF3D5D6ED5C2824DF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBEE56C5F734C175257A0D8C1233807 /* Pods-BLKDialog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FF19751CFD10352C14068CFEE2C56B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856453C4419381C549CADBC10CDA8451 /* Pods-BLKDialog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06AE9BFBB2BBA64A60C0B922E0CEE34F /* Pods-BLKDialog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BC01AC2D52B2616FD15F40F220A0E4 /* Build configuration list for PBXNativeTarget "Pods-BLKDialog_Example" */;
+			buildPhases = (
+				17E1C46EC7D8B9693097DF839950BB75 /* Sources */,
+				B238E80059E7A0A9B6E7918C37E43413 /* Frameworks */,
+				E2FF19751CFD10352C14068CFEE2C56B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20D6C028EE4E51A485C58B2C983E5DC /* PBXTargetDependency */,
+				3A60DDC7A7773506399C545AC939DA65 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLKDialog_Example";
+			productName = "Pods-BLKDialog_Example";
+			productReference = DB8C7F5A8EDBC38078A32357220B9E3E /* Pods_BLKDialog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				FE8E0446C3B3B52779E8DE373E495A61 /* Sources */,
+				B57774E30FD88AE26F9037E1360E947B /* Frameworks */,
+				197B7877D5D346F405BDD059EF96DBDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = D78D08205B7EF73CF3842BAAD3BB24DD /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		798A5EBEC22B8372D0F1D2CE95B63A45 /* BLKDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8956AED387563F13CEEA481C2E4A05 /* Build configuration list for PBXNativeTarget "BLKDialog" */;
+			buildPhases = (
+				31DE8813994B16FF60D2B9FA3AD650B2 /* Sources */,
+				FA13CE1362B6A55C7BA26AB16F05E8DA /* Frameworks */,
+				0958361DFD0884CDCF3D1FC47EC4E5AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLKDialog;
+			productName = BLKDialog;
+			productReference = 1C6FC008CDEBDDA49D93ED61ADE010A8 /* BLKDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		937BAB6C936E638CB78901358A96D135 /* Pods-BLKDialog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB5293BF71CF38E62DEE11EE6BD2037 /* Build configuration list for PBXNativeTarget "Pods-BLKDialog_Tests" */;
+			buildPhases = (
+				ED2E78BA0E64703F13D00048F994E2A4 /* Sources */,
+				5F9465C41B2B79BB62633F19EF351041 /* Frameworks */,
+				65E76E4A2003B7BF3D5D6ED5C2824DF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BLKDialog_Tests";
+			productName = "Pods-BLKDialog_Tests";
+			productReference = 5CDADF93584A4E3CF5792DA8DA7E9B3E /* Pods_BLKDialog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE22190A9435FF456FB1C67F3981129D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798A5EBEC22B8372D0F1D2CE95B63A45 /* BLKDialog */,
+				41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */,
+				06AE9BFBB2BBA64A60C0B922E0CEE34F /* Pods-BLKDialog_Example */,
+				937BAB6C936E638CB78901358A96D135 /* Pods-BLKDialog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E1C46EC7D8B9693097DF839950BB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B8A53802EBBE1E93567782F0AB6213 /* Pods-BLKDialog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DE8813994B16FF60D2B9FA3AD650B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E79E348F73EE2014B2512CA62151B3 /* BLKDialog-dummy.m in Sources */,
+				2D28E248AD052B66165ADBB87F838B7A /* BLKStatusBar.m in Sources */,
+				7E1E19F49C81F82732B0E6A4942A7CD6 /* UIViewController+BLKDialog.m in Sources */,
+				5A6E62D91E1357A200897797 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2E78BA0E64703F13D00048F994E2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E2F19B8FEEAE9AC8ED3B0361BC8059 /* Pods-BLKDialog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8E0446C3B3B52779E8DE373E495A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */,
+				897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A60DDC7A7773506399C545AC939DA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */;
+			targetProxy = D3427D47B8C1B57785C69FA1D98E6264 /* PBXContainerItemProxy */;
+		};
+		B20D6C028EE4E51A485C58B2C983E5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLKDialog;
+			target = 798A5EBEC22B8372D0F1D2CE95B63A45 /* BLKDialog */;
+			targetProxy = D1B0B8B71291B920CEF9F0261B103392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E551170A2845F3FA849B50B0D705C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0F2E8BFD3FE35FCDF09C8A9D60ACBF /* Pods-BLKDialog_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLKDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLKDialog_Example/Pods-BLKDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLKDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34C150058E0FD2BE8B71477421A67176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBFE85595DAC0827F7E6D1B15B59C91 /* BLKDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLKDialog/BLKDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLKDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLKDialog/BLKDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLKDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		679B973EA7AD405C207DDD569F65D749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C604A49031B71D92A1C0F7CB6C5143E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C38128925FA4340ACD81D6614C6E06 /* Pods-BLKDialog_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLKDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLKDialog_Example/Pods-BLKDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLKDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B1230B2BA14E13BD851B1184FB2BC7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2AF3DCD3D1984FBA60F550D1B36D521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6714D0D190B885B78501A1F4DEAC8AD /* Pods-BLKDialog_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLKDialog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLKDialog_Tests/Pods-BLKDialog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLKDialog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A98E78EBF75783039758607F9A857832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3AB063815D22B288BD7E5AA88AE2E1 /* Pods-BLKDialog_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLKDialog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLKDialog_Tests/Pods-BLKDialog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLKDialog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDE75C432A588C2FC0DE2A4899352E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBFE85595DAC0827F7E6D1B15B59C91 /* BLKDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLKDialog/BLKDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLKDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLKDialog/BLKDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BLKDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BC01AC2D52B2616FD15F40F220A0E4 /* Build configuration list for PBXNativeTarget "Pods-BLKDialog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C604A49031B71D92A1C0F7CB6C5143E /* Debug */,
+				0E551170A2845F3FA849B50B0D705C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8956AED387563F13CEEA481C2E4A05 /* Build configuration list for PBXNativeTarget "BLKDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C150058E0FD2BE8B71477421A67176 /* Debug */,
+				BDE75C432A588C2FC0DE2A4899352E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB5293BF71CF38E62DEE11EE6BD2037 /* Build configuration list for PBXNativeTarget "Pods-BLKDialog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98E78EBF75783039758607F9A857832 /* Debug */,
+				A2AF3DCD3D1984FBA60F550D1B36D521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679B973EA7AD405C207DDD569F65D749 /* Debug */,
+				7B1230B2BA14E13BD851B1184FB2BC7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

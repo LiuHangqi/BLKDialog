@@ -1,0 +1,19 @@
+PODS:
+  - BLKDialog (0.1.0)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - BLKDialog (from `../`)
+  - MBProgressHUD
+
+EXTERNAL SOURCES:
+  BLKDialog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BLKDialog: 49a458a2416028b59e3c5a2a31d1cc3c53d5a015
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 53d959c995246b5e163ca0d1ae8e4628001c487c
+
+COCOAPODS: 1.1.1
