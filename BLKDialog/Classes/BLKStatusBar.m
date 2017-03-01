@@ -103,7 +103,7 @@ static CGFloat const barHeight = 64;
     if (!_overlayWindow) {
         
         _overlayWindow = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-        _overlayWindow.windowLevel = UIWindowLevelStatusBar;
+//        _overlayWindow.windowLevel = UIWindowLevelStatusBar;
         _overlayWindow.userInteractionEnabled = NO;
         _overlayWindow.backgroundColor = [UIColor clearColor];
         _overlayWindow.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
@@ -116,7 +116,8 @@ static CGFloat const barHeight = 64;
     
     if (!_messageLabel) {
         
-        _messageLabel = [[UILabel alloc]initWithFrame:self.bounds];
+        CGRect frame = CGRectMake(0, 20, self.bounds.size.width, self.bounds.size.height-20);
+        _messageLabel = [[UILabel alloc]initWithFrame:frame];
         _messageLabel.font = [UIFont systemFontOfSize:14];
         _messageLabel.textAlignment = NSTextAlignmentCenter;
     }
